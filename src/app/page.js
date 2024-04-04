@@ -3,10 +3,10 @@ import profileImg from 'images/profile.jpeg'
 
 export default function Home() {
     return (
-        <div className="bg-gray-100 p-4 bg-[#f1f3f6] text-[#6c757d]">
+        <div className="p-4 bg-[#f1f3f6] text-[#6c757d]">
 
             <div
-                className="border-1 shadow-lg shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-lg bg-[#f1f3f6]">
+                className="border-1 shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-lg bg-[#f1f3f6]">
 
                 {/*top content*/}
                 <div className="flex rounded-t-lg bg-top-color sm:px-2 w-full">
@@ -42,6 +42,7 @@ export default function Home() {
                                     <a href="https://www.github.com/mivashchenko" target="_blank"
                                        rel="noreferrer">
                                         <img
+                                            alt={"github"}
                                             className={"mr-2"}
                                             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
                                             width="32" height="32"/>
@@ -50,6 +51,7 @@ export default function Home() {
                                     <a href="http://www.instagram.com/kibadist"
                                        target="_blank" rel="noreferrer">
                                         <img
+                                            alt={"instagram"}
                                             className={"mr-2"}
                                             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
                                             width="32" height="32"/>
@@ -58,6 +60,7 @@ export default function Home() {
                                     <a href="https://www.linkedin.com/in/mivashchenko"
                                        target="_blank" rel="noreferrer">
                                         <img
+                                            alt={"linkedin"}
                                             className={"mr-2"}
                                             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
                                             width="32" height="32"/>
@@ -67,6 +70,7 @@ export default function Home() {
                                         href="https://medium.com/@mivashchenko.blog"
                                         target="_blank" rel="noreferrer">
                                         <img
+                                            alt={"medium"}
                                             className={"mr-2"}
                                             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg"
                                             width="32" height="32"/>
@@ -145,7 +149,7 @@ export default function Home() {
                                 </div>
                             </div>
                             {/* Education Background */}
-                            <div className="p-3 pr-3 mt-3 rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-1 pr-3">
+                            <div className="p-3 mt-3 rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-1 pr-3">
                                 <h2 className="text-lg font-poppins font-bold text-top-color">Courses</h2>
                                 <div
                                     className="my-2 w-[60px] relative [box-shadow:inset_1.5px_1.5px_1.5px_#cdcdcd,_inset_-1.5px_-1.5px_1.5px_#fafafa] h-2 rounded-[1em] border-[0] after:absolute after:content-[''] after:h-1 after:bg-[#f56c6d] after:w-1/2 after:rounded-[3em]"></div>
