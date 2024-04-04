@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import profileImg from 'images/profile.jpeg'
+import profileImg from '../../public/images/profile.jpg'
 
 export default function Home() {
     return (
@@ -13,7 +12,7 @@ export default function Home() {
 
                     <div className="relative inline-block rounded-[50%] p-[0.5625rem] bg-[#f3f5f8] w-[11.25rem] h-[11.25rem] after:absolute after:top-[0] after:right-[0] after:bottom-[0] after:[box-shadow:inset_3px_3px_3px_#cdcdcd,_inset_-3px_-3px_3px_#fafafa] after:rounded-[50%] after:z-0 after:left-[0]">
                         <div className="[box-shadow:3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-[50%] p-1.5 relative">
-                            <Image src={profileImg} alt={'profile image'} className={'w-[9.375rem] h-[9.375rem] inline-block !rounded-[50%] align-middle border-none object-cover'}/>
+                            <img src={profileImg.src} alt={'profile image'} className={'w-[9.375rem] h-[9.375rem] inline-block !rounded-[50%] align-middle border-none object-cover'}/>
                         </div>
                     </div>
 
