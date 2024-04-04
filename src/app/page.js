@@ -8,7 +8,7 @@ export default function Home() {
                 className="border-1 shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-lg bg-[#f1f3f6]">
 
                 {/*top content*/}
-                <div className="flex rounded-t-lg bg-top-color sm:px-2 w-full">
+                <div className="flex flex-wrap justify-center pt-4 sm:flex-nowrap rounded-t-lg bg-top-color sm:px-2 w-full">
 
                     <div className="relative inline-block rounded-[50%] p-[0.5625rem] bg-[#f3f5f8] w-[11.25rem] h-[11.25rem] after:absolute after:top-[0] after:right-[0] after:bottom-[0] after:[box-shadow:inset_3px_3px_3px_#cdcdcd,_inset_-3px_-3px_3px_#fafafa] after:rounded-[50%] after:z-0 after:left-[0]">
                         <div className="[box-shadow:3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-[50%] p-1.5 relative">
@@ -16,11 +16,11 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="w-2/3 sm:text-center pl-5 mt-10 text-start">
-                        <p className="font-poppins font-bold text-heading sm:text-4xl text-2xl">
+                    <div className="w-2/3 sm:text-center sm:pl-5 mt-4 sm:mt-10 text-start">
+                        <p className="font-poppins font-bold text-heading text-center sm:text-4xl text-2xl">
                             Maksym Ivashchenko
                         </p>
-                        <p className="text-heading">Senior Frontend Engineer</p>
+                        <p className="text-heading text-center">Senior Frontend Engineer</p>
                     </div>
 
                 </div>
