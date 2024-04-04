@@ -1,4 +1,4 @@
-import profileImg from '../../public/images/profile.jpg'
+import profileImg from '../../public/images/profile.jpeg'
 
 export default function Home() {
     return (
