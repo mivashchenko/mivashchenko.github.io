@@ -427,8 +427,8 @@ export default function Home() {
                                             <a
                                                 className={'ml-2 font-medium text-blue-600 dark:text-blue-500 hover:underline'}
                                                 target={'_blank'}
-                                                href={'http://booking.website.s3-website.us-east-2.amazonaws.com'}>
-                                                Booking service
+                                                href={'https://booking-ui-two.vercel.app'}>
+                                                Booking service (In progress) - Next.js, Redux, TypeScript, MUI
                                             </a>
                                         </div>
                                         <p className="font-normal text-sm text-gray-700 mb-1 pl-2">A versatile booking
