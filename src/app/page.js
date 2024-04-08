@@ -8,11 +8,15 @@ export default function Home() {
                 className="border-1 shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-lg bg-[#f1f3f6]">
 
                 {/*top content*/}
-                <div className="flex flex-wrap justify-center pt-4 sm:flex-nowrap rounded-t-lg bg-top-color sm:px-2 w-full">
+                <div
+                    className="flex flex-wrap justify-center pt-4 sm:flex-nowrap rounded-t-lg bg-top-color sm:px-2 w-full">
 
-                    <div className="relative inline-block rounded-[50%] p-[0.5625rem] bg-[#f3f5f8] w-[11.25rem] h-[11.25rem] after:absolute after:top-[0] after:right-[0] after:bottom-[0] after:[box-shadow:inset_3px_3px_3px_#cdcdcd,_inset_-3px_-3px_3px_#fafafa] after:rounded-[50%] after:z-0 after:left-[0]">
-                        <div className="[box-shadow:3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-[50%] p-1.5 relative">
-                            <img src={profileImg.src} alt={'profile image'} className={'w-[9.375rem] h-[9.375rem] inline-block !rounded-[50%] align-middle border-none object-cover'}/>
+                    <div
+                        className="relative inline-block rounded-[50%] p-[0.5625rem] bg-[#f3f5f8] w-[11.25rem] h-[11.25rem] after:absolute after:top-[0] after:right-[0] after:bottom-[0] after:[box-shadow:inset_3px_3px_3px_#cdcdcd,_inset_-3px_-3px_3px_#fafafa] after:rounded-[50%] after:z-0 after:left-[0]">
+                        <div
+                            className="[box-shadow:3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] rounded-[50%] p-1.5 relative">
+                            <img src={profileImg.src} alt={'profile image'}
+                                 className={'w-[9.375rem] h-[9.375rem] inline-block !rounded-[50%] align-middle border-none object-cover'}/>
                         </div>
                     </div>
 
@@ -21,6 +25,27 @@ export default function Home() {
                             Maksym Ivashchenko
                         </p>
                         <p className="text-heading text-center">Senior Frontend Engineer</p>
+                        <div className={'flex justify-center p-2 mt-2'}>
+                            <div
+                                className={'[box-shadow:3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] [transition:all_0.3s_ease_0s] rounded-[2rem] !mb-4'}>
+                                <a className="block px-6 py-2"
+                                   href="/cv.pdf" title="" download>
+                                    <div className={'!items-center flex'}>
+                                        <div className={"!text-left flex-[1]"}><span
+                                            className={'!text-[#212529] font-semibold !uppercase !text-left'}>CV</span>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#cf4075"
+                                             className="w-6 h-6 ml-4">
+                                            <path fillRule="evenodd"
+                                                  d="M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h15Zm-6.75-10.5a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V10.5Z"
+                                                  clipRule="evenodd"/>
+                                        </svg>
+
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
@@ -32,7 +57,8 @@ export default function Home() {
 
                         <div className="flex flex-col sm:w-1/3 sm:pr-3 pr-0">
                             {/* My contact */}
-                            <div className="p-3 pr-3 mt-3 sm:mt-0  rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-3">
+                            <div
+                                className="p-3 pr-3 mt-3 sm:mt-0  rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-3">
                                 <h2 className="text-lg font-poppins font-bold text-top-color">My Contact</h2>
                                 <div
                                     className="my-2 w-[60px] relative [box-shadow:inset_1.5px_1.5px_1.5px_#cdcdcd,_inset_-1.5px_-1.5px_1.5px_#fafafa] h-2 rounded-[1em] border-[0] after:absolute after:content-[''] after:h-1 after:bg-[#f56c6d] after:w-1/2 after:rounded-[3em]"></div>
@@ -114,7 +140,8 @@ export default function Home() {
                                 </div>
                             </div>
                             {/* Skills */}
-                            <div className="p-3 pr-3 mt-3 rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-2">
+                            <div
+                                className="p-3 pr-3 mt-3 rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-2">
                                 <h2 className="text-lg font-poppins font-bold text-top-color">Tech Stack</h2>
                                 <div
                                     className="my-2 w-[60px] relative [box-shadow:inset_1.5px_1.5px_1.5px_#cdcdcd,_inset_-1.5px_-1.5px_1.5px_#fafafa] h-2 rounded-[1em] border-[0] after:absolute after:content-[''] after:h-1 after:bg-[#f56c6d] after:w-1/2 after:rounded-[3em]"></div>
@@ -148,7 +175,8 @@ export default function Home() {
                                 </div>
                             </div>
                             {/* Education Background */}
-                            <div className="p-3 mt-3 rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-1 pr-3">
+                            <div
+                                className="p-3 mt-3 rounded-xl shadow-[3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] sm:order-none order-1 pr-3">
                                 <h2 className="text-lg font-poppins font-bold text-top-color">Courses</h2>
                                 <div
                                     className="my-2 w-[60px] relative [box-shadow:inset_1.5px_1.5px_1.5px_#cdcdcd,_inset_-1.5px_-1.5px_1.5px_#fafafa] h-2 rounded-[1em] border-[0] after:absolute after:content-[''] after:h-1 after:bg-[#f56c6d] after:w-1/2 after:rounded-[3em]"></div>
@@ -207,13 +235,15 @@ export default function Home() {
                                     <div
                                         className={'ml-2 font-medium text-blue-600 dark:text-blue-500 hover:underline'}>
                                         <a target={'_blank'}
-                                           href="https://www.coursera.org/account/accomplishments/verify/BPWKECJTS8UN"> Programming for Everybody (Getting Started with Python)</a></div>
+                                           href="https://www.coursera.org/account/accomplishments/verify/BPWKECJTS8UN"> Programming
+                                            for Everybody (Getting Started with Python)</a></div>
                                 </div>
                                 <div className="flex flex-col space-y-1 mt-4">
                                     <div
                                         className={'ml-2 font-medium text-blue-600 dark:text-blue-500 hover:underline'}>
                                         <a target={'_blank'}
-                                           href="https://www.coursera.org/account/accomplishments/verify/5TU93BGZD7F3">Introduction to HTML5</a></div>
+                                           href="https://www.coursera.org/account/accomplishments/verify/5TU93BGZD7F3">Introduction
+                                            to HTML5</a></div>
                                 </div>
                             </div>
 
@@ -450,5 +480,6 @@ export default function Home() {
             </div>
 
         </div>
-    );
+    )
+        ;
 }
