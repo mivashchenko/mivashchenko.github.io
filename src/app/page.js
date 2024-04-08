@@ -29,7 +29,7 @@ export default function Home() {
                             <div
                                 className={'[box-shadow:3px_3px_3px_#cdcdcd,_-3px_-3px_3px_#fafafa] [transition:all_0.3s_ease_0s] rounded-[2rem] !mb-4'}>
                                 <a className="block px-6 py-2"
-                                   href="/cv.pdf" title="" download>
+                                   href="/Maksym%20Ivashchenko%20-%20Frontend%20developer%20(7+).pdf" title="" download>
                                     <div className={'!items-center flex'}>
                                         <div className={"!text-left flex-[1]"}><span
                                             className={'!text-[#212529] font-semibold !uppercase !text-left'}>CV</span>
