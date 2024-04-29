@@ -482,7 +482,7 @@ export default function Home() {
                                             <a
                                                 className={'ml-2 font-medium text-blue-600 dark:text-blue-500 hover:underline'}
                                                 target={'_blank'}
-                                                href={'https://mossbook-crm.vercel.app/'}>
+                                                href={'https://moss-book.com/'}>
                                                 Auth service (In progress, desktop and tablet view) - Next.js v14.2, Next-auth v5, Shadcn-ui, Tailwind,
                                                 TypeScript, Prisma, PostgreSQL
                                             </a>
