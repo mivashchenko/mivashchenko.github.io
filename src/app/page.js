@@ -487,7 +487,6 @@ export default function Home() {
                                                 TypeScript, Prisma, PostgreSQL
                                             </a>
                                         </div>
-                                        <p className="font-normal text-sm mb-1 pl-2 text-red-500">Please manually reload the page if you encounter a 404 error or if the URL in the address bar does not change after a redirect. The latest technologies used in this project may have several issues.</p>
                                         <p className="font-normal text-sm text-gray-700 mb-1 pl-2">NextJS Auth app with Tokens, confirmation emails, 2FA, User roles</p>
                                     </div>
 
