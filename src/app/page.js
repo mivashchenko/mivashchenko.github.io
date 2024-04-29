@@ -444,6 +444,31 @@ export default function Home() {
 
                                 <div className="flex flex-col">
 
+                                    <div className="flex flex-col mb-4">
+                                        <div className={'flex mb-2'}>
+                                            <div className={'w-[24px] h-[24px]'}>
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                     fill="currentColor" className="w-6 h-6">
+                                                    <path fillRule="evenodd"
+                                                          d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304Zm-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1Z"
+                                                          clipRule="evenodd"/>
+                                                </svg>
+                                            </div>
+                                            <a
+                                                className={'ml-2 font-medium text-blue-600 dark:text-blue-500 hover:underline'}
+                                                target={'_blank'}
+                                                href={'https://booking-ui-two.vercel.app/booking'}>
+                                                Booking service (In progress, mobile view only) - Next.js 14.2, Redux,
+                                                TypeScript, MUI, MongoDB
+                                            </a>
+                                        </div>
+                                        <p className="font-normal text-sm text-gray-700 mb-1 pl-2">A versatile booking
+                                            app designed to streamline appointments and reservations for a variety of
+                                            services including barbershops, nail studios, and beauty salons. Whether
+                                            you&apos;re a customer looking to book your next appointment or a service
+                                            provider managing your schedule, MossBook has you covered.</p>
+                                    </div>
+
                                     <div className="flex flex-col">
                                         <div className={'flex mb-2'}>
                                             <div className={'w-[24px] h-[24px]'}>
@@ -457,15 +482,13 @@ export default function Home() {
                                             <a
                                                 className={'ml-2 font-medium text-blue-600 dark:text-blue-500 hover:underline'}
                                                 target={'_blank'}
-                                                href={'https://booking-ui-two.vercel.app'}>
-                                                Booking service (In progress) - Next.js, Redux, TypeScript, MUI
+                                                href={'https://mossbook-crm.vercel.app/'}>
+                                                Auth service (In progress, desktop and tablet view) - Next.js v14.2, Next-auth v5, Shadcn-ui, Tailwind,
+                                                TypeScript, Prisma, PostgreSQL
                                             </a>
                                         </div>
-                                        <p className="font-normal text-sm text-gray-700 mb-1 pl-2">A versatile booking
-                                            app designed to streamline appointments and reservations for a variety of
-                                            services including barbershops, nail studios, and beauty salons. Whether
-                                            you&apos;re a customer looking to book your next appointment or a service
-                                            provider managing your schedule, MossBook has you covered.</p>
+                                        <p className="font-normal text-sm mb-1 pl-2 text-red-500">Please do manual page reload if you see 404 error. Latest technologies that being used in this project have a lot of issues.</p>
+                                        <p className="font-normal text-sm text-gray-700 mb-1 pl-2">NextJS Auth app with Tokens, confirmation emails, 2FA, User roles</p>
                                     </div>
 
                                 </div>
